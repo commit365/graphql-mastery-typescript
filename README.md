@@ -127,8 +127,9 @@ To get started with this course, follow these steps to clone the repository and 
    ```
 
 2. **Install Dependencies**:
+   Install the necessary dependencies using npm:
    ```bash
-   npm install
+   npm install graphql apollo-server @apollo/client dotenv cors graphql-subscriptions compression && npm install --save-dev typescript @types/node @types/jest jest supertest @graphql-codegen/cli @graphql-codegen/typescript @graphql-codegen/typescript-operations @apollo/client/testing nodemon
    ```
 
 3. **Run the Development Server**:
